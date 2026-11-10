@@ -1,0 +1,57 @@
+<!-- ibrahim shamim   SE-A  26i-3002 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Venue Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">Home</a> |
+  <a href="venue.html">Venue</a> |
+  <a href="rsvp.html">RSVP</a>
+</div>
+
+<h1>Venue & Location Details</h1>
+<p>We look forward to celebrating with you! Below are the location details for our wedding events.</p>
+
+<img src="image_folder/image.jpg" alt="Wedding Venue Decor" width="750" height="333">
+
+<table>
+  <tr>
+    <th>EVENT / ZONE</th>
+    <th>LOCATION & ADDRESS</th>
+    <th>ENTRY GATE</th>
+  </tr>
+  <tr>
+    <td>Barat Hall</td>
+    <td>Grand Royal Palace, Main Boulevard</td>
+    <td>Gate 1 (Main Entrance)</td>
+  </tr>
+  <tr>
+    <td>Valima Venue</td>
+    <td>Crystal Ballroom, Pearl Continental</td>
+    <td>Gate 3 (VIP Entrance)</td>
+  </tr>
+  <tr>
+    <td>Parking Zone</td>
+    <td>South Parking Area & Valet Station</td>
+    <td>Gate 4 (Parking Entrance)</td>
+  </tr>
+</table>
+
+<p id="demo"></p>
+
+<button onclick="getDirections()">Get Directions</button>
+
+<script>
+  function getDirections() {
+    console.log("directions requested");
+    window.alert("Directions:\n1. Take Main Expressway towards City Center.\n2. Turn right at Grand Avenue.\n3. Gate 1 (Barat Hall) will be on your left. Valet parking is available at Gate 4.");
+  }
+</script>
+
+</body>
+</html>
